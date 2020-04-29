@@ -24,8 +24,8 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('ayam.jpg');
-  min-height: 400px
+  background-image: url('/w3images/parallax1.jpg');
+  min-height: 100%;
 }
 
 /* Second image (Portfolio) */
@@ -36,13 +36,7 @@ body, html {
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("ayam.jpg");
-  min-height: 400px;
-}
-
-/* Fourth image (Contact) */
-.bgimg-4 {
-  background-image: url("ayam.jpg");
+  background-image: url("/w3images/parallax3.jpg");
   min-height: 400px;
 }
 
@@ -51,7 +45,7 @@ body, html {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
     min-height: 400px;
   }
@@ -69,61 +63,24 @@ body, html {
     <a href="tentang wabah.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> TENTANG WABAH</a>
     <a href="penyebaran.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PENYEBARAN</a>
     <a href="penanggulangan.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> PENANGGULANGAN</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i> Tentang</a>
+    <a href="profil.html" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i> </a>
     </a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="tentang wabah.html" class="w3-bar-item w3-button" onclick="toggleFunction()">TENTANG WABAH</a>
-    <a href="penyebaran.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PENYEBARAN</a>
+    <a href="tntang wabah.html" class="w3-bar-item w3-button" onclick="toggleFunction()">TENTANG WABAH</a>
+    <a href="peenyebaran.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PENYEBARAN</a>
     <a href="penanggulangan.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PENANGGULANGAN</a>
-    <a href="profil.html" class="w3-bar-item w3-button">Tentang</a>
+    <a href="#" class="w3-bar-item w3-button"></a>
   </div>
 </div>
 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">AVIAN <span class="w3-hide-small">INFLUENZA</span> 
-  </div>
-</div>
-
-<!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">FLU BURUNG</h3>
-  <p class="w3-center"><em>H5N1</em></p>
-  <p>Flu burung adalah infeksi virus yang menyerang bukan hanya burung, tetapi juga manusia, dan hewan lain. Namun sebagian besar adalah unggas. H5N1 adalah bentuk paling umum dari flu burung.</p></div>
-
-<!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-     <a href="tentang wabah.html" ><span class="w3-xxlarge w3-text-white w3-wide">Tentang Wabah</span></a>
-  </div>
-</div>
-
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div class="w3-quarter w3-section">
-  </div>
-</div>
-
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-     <a href="penyebaran.html" ><span class="w3-xxlarge w3-text-white w3-wide">Penyebaran</span></a>
-  </div>
-</div>
-
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div class="w3-quarter w3-section">
-  </div>
-</div>
-
-<!-- Fourth Parallax Image with Portfolio Text -->
-<div class="bgimg-4 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-     <a href="penanggulangan.html" ><span class="w3-xxlarge w3-text-white w3-wide">Penanggulangan</span></a>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Tentang <span class="w3-hide-small">Wabah</span> </span>
   </div>
 </div>
 
@@ -179,6 +136,17 @@ body, html {
   </div>
 </div>
 
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">TENTANG WABAH</span>
+    <div class="w3-col m3">
+      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)"  class="w3-hover-opacity">
+    </div>
+  </div>
+</div>
+ 
+
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
   <h3 class="w3-center">MY WORK</h3>
@@ -229,6 +197,13 @@ body, html {
   <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
     <img id="img01" class="w3-image">
     <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">PENYEBARAN</span>
   </div>
 </div>
 

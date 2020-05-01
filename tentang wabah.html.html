@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<title>Flu Burung</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url("fluburung2.jpeg");
+  min-height: 400px
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("ayam.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("petasebaran.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+<body>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html" class="w3-bar-item w3-text-black w3-hover-text-white w3-hover-black w3-button"></i> HOME</a>
+    <a href="tentang wabah.html" class="w3-bar-item w3-text-black w3-button w3-hover-text-white w3-hover-black w3-hide-small"> TENTANG WABAH</a>
+    <a href="penyebaran.html" class="w3-bar-item w3-text-black w3-button w3-hover-text-white w3-hover-black w3-hide-small "> PENYEBARAN</a>
+    <a href="penanggulangan.html" class="w3-bar-item w3-text-black w3-button w3-hover-text-white w3-hover-black w3-hide-small"> PENANGGULANGAN</a>
+    <a href="about us.html" class="w3-bar-item w3-button w3-text-black w3-hide-small w3-right"> ABOUT US</a>
+    </a>
+  </div>
+
+<!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="tentang wabah.html" class="w3-bar-item w3-button" onclick="toggleFunction()">TENTANG WABAH</a>
+    <a href="penyebaran.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PENYEBARAN</a>
+    <a href="penanggulangan.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PENANGGULANGAN</a>
+    <a href="about us.html" class="w3-bar-item w3-button">Tentang</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Tentang <span class="w3-hide-small">Wabah</span> </span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="flu burung">
+  <h3 class="w3-center">FLU BURUNG</h3>
+  <p class="w3-center"><em>H5N1</em></p>
+<div class="w3-container w3-center">
+  <p>Flu burung adalah infeksi virus yang menyerang bukan hanya burung, tetapi juga manusia, dan hewan lain. Namun sebagian besar adalah unggas. H5N1 adalah bentuk paling umum dari flu burung.</p>
+</div>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b>Gejala Flu Burung</b></p><br>
+      <img src="sakit.jpg" class="w3-round w3-image w3-image" alt="flu burung" width="1000px" height="666px">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-justify w3-padding-large">
+<p>Gejala flu burung umumnya baru muncul setelah 3–5 hari terpapar virus ini. Gejala yang timbul dapat berbeda-beda, mulai dari yang ringan hingga parah. Meskipun kadang orang yang terinfeksi virus flu burung bisa tidak merasakan gejala apa pun, tetapi secara umum, penderita flu burung akan mengalami gejala berupa:</p>
+
+      <ul>
+
+          <li>Demam</li>
+          <li>Batuk</li>
+          <li>Sakit tenggorokan</li>
+          <li>Nyeri otot</li>
+          <li>Sakit kepala</li>
+          <li>Kelelahan</li>
+          <li>Hidung berair atau tersumbat</li>
+          <li>Sesak napas</li>
+
+      </ul>
+
+<p> Pada beberapa penderita, gejala lain yang juga dapat timbul antara lain muntah, sakit perut, diare, gusi berdarah, mimisan, nyeri dada, dan mata merah (konjungtivitis). Pada infeksi yang berat, flu burung bahkan bisa menyebabkan pneumonia, Acute Respiratory Distress Syndrome (ARDS), gagal napas, kejang, dan gangguan sistem saraf.</p>
+  </div>
+    <div>
+  <h4 class="w3-center"><b>Pencegahan Flu Burung</b></h4>
+</div>
+
+<div class="w3-col m6 w3-justify w3-padding-64">
+  <p>Dibawah ini merupakan beberapa cara pencegahan flu burung:</p>
+  <ul>
+    <li>Hindari kontak langsung dengan burung/unggas seperti di pasar dan peternakan, dimana lingkungan disana bisa tercemar oleh limbah dari unggas.</li>
+    <li>Jangan menyentuh burung yang sedang sakit atau sudah mati.</li>
+    <li>Mencuci tangan teratur, bisa mencegah penularan flu burung dan kuman lainnya. Bila Anda menyentuh kotoran dan liur burung, segera cuci tangan dengan sabun cuci tangan antibakteri dan air.</li>
+  </ul>
+</div>
+<div class="w3-container w3-padding-64 w3-col m6">
+  <img src="Cara-Pencegahan-Penyakit-Lupus.jpg" class="w3-round w3-image" alt="gambar tangan" width="800px" height="500px">
+</div>
+
+<div>
+<h4 class="w3-center"><b>Cara Penularan Flu Burung</b></h4>
+</div>
+
+<div class="w3-col m6 w3-justify w3-padding-large">
+  <p>Flu burung ditularkan secara langsung antar burung (yang hidup maupun sudah mati) melalui feses, cairan, liur dan darahnya. Biasanya penularan antar manusia tidak bisa terjadi. Penularannya biasanya melalui burung ke manusia.
+Flu burung menular melalui kontak langsung dengan unggas yang sakit atau lingkungan yang terkontaminasi, seperti:
+</p>
+</div>
+
+<div class="w3-container w3-padding-small w3-col m6">
+  <img src="ilustrasi-flu-burung-edited.jpg" class="w3-round w3-image" alt="penularan" width="350px" height="196.5px">
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="w3-row-padding">
+  <div class="w3-col m3 w3-dark-grey w3-center"><p><b>1</b></p></div>
+  <div class="w3-col m3 w3-light-grey w3-center"><p><b>2</b></p></div>
+  <div class="w3-col m3 w3-dark-grey w3-center"><p><b>3</b></p></div>
+  <div class="w3-col m3 w3-light-grey w3-center"><p><b>4</b></p></div>
+</div>
+<div class="w3-padding-large w3-row-padding">
+  <div class="w3-col m3 w3-center">
+    <img src="ayam dipegang.png" class="w3-image" alt="ayam dipegang" width="1080px" height="1080px">
+    <p class="w3-justify">Menyentuh unggas yang telah terinfeksi, baik yang masih hidup maupun yang sudah mati.</p>
+</div>
+  <div class="w3-col m3 w3-center">
+    <img src="ayam-muntah.png" class="w3-image" alt="ayam muntah" width="1080px" height="1080px">
+    <p class="w3-justify">Kontak dengan cairan tubuh unggas yang sakit, misalnya ludah. Atau tidak sengaja menghirup percikan cairan tubuh tersebut.</p>
+  </div>
+  <div class="w3-col m3 w3-center">
+    <img src="ayam kotor dipegang.png" class="w3-image" alt="ayam kotor" width="1080px" height="1080px">
+    <p class="w3-justify">Kontak dengan debu dari kotoran unggas sakit yang telah mengering atau menghirupnya.</p>
+  </div>
+  <div class="w3-col m3 w3-center">
+    <img src="telor-mentah.png" class ="w3-image" alt="telur mentah" width="1080px" height="1080px">
+    <p class="w3-justify">Menyantap daging atau telurnya dengan tidak dimasak sampai benar-benar matang. Makan daging dan telur yang matang tidak akan membuat Anda tertular virus flu burung.</p>
+</div>
+  </div>
+  <h4 class="w3-center"><b>Pengobatan Flu Burung</b></h4>
+</div>
+
+<div class="w3-col m6 w3-justify w3-padding-64">
+  <p>Pasien yang telah terbukti menderita flu burung akan dirawat di ruang isolasi di rumah sakit untuk menghindari penularan. Pasien dianjurkan untuk minum banyak cairan, mengkonsumsi makanan sehat, istirahat, dan minum obat pereda rasa sakit, dokter juga biasanya akan memberikan obat-obatan antivirus agar penyakit tidak berkembang makin parah. Contoh obat-obatan antivirus yang bisa diberikan dalam kasus flu burung adalah oseltamivir dan zanamivir.Dibawah ini merupakan beberapa cara pencegahan flu burung:</p>
+</div>
+<div class="w3-container w3-padding-64 w3-col m6">
+  <img src="Pengobatan1.jpg" class="w3-round w3-image" alt="gambar obat" width="400px" height="50px">
+</div>
+
+    </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Created by Krisna Yudha Pradana, Brigitta Natasha Widiaputri, & Rahmania Nur Diniyah</p><br><p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</p>
+
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

@@ -1,5 +1,7 @@
 # 2020-wabah-xi-8-flu-burung
 2020-wabah-xi-8-flu-burung created by GitHub Classroom
+<li>ANGGOTA:
+
 <ol><li><b>Irza Muhammad Pratama</b>
 <li>Alvin Taniharja
 <li>Brigitta Natasha Widiaputri

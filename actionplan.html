@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<title>Flu Burung</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('Header ayam penanggulangan.jpg');
+  min-height: 400px
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("Header ayam penanggulangan.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("petasebaran.jpg");
+  min-height: 400px;
+}
+
+/* Fourth image (Contact) */
+.bgimg-4 {
+  background-image: url("Stop virus.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html" class="w3-bar-item w3-text-black w3-hover-text-white w3-hover-black w3-button"></i> Home</a>
+    <a href="tentang wabah.html" class="w3-bar-item w3-text-black w3-button w3-hover-text-white w3-hover-black w3-hide-small"> Tentang Avian Influenza</a>
+    <a href="penyebaran.html" class="w3-bar-item w3-text-black w3-button w3-hover-text-white w3-hover-black w3-hide-small "> Penyebaran</a>
+    <a href="penanggulangan.html" class="w3-bar-item w3-text-black w3-button w3-hover-text-white w3-hover-black w3-hide-small"> Penanggulangan</a>
+    <a href="about us.html" class="w3-bar-item w3-button w3-text-black w3-hide-small w3-right"> About Us</a>
+    </a>
+  </div>
+
+<!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="tentang wabah.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Tentang Avian Influenza</a>
+    <a href="penyebaran.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Penyebaran</a>
+    <a href="penanggulangan.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Penanggulangan</a>
+    <a href="about us.html" class="w3-bar-item w3-button">About Us</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min w3-animation-top" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">PENANGGULANGAN <span class="w3-hide-small"> AVIAN INFLUENZA</span> 
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <div>
+      <h4 class="w3-center"><b>Action Plan</b></h4>
+    </div>
+    <div>
+      <p>Action plan yang dapat dilakukan untuk meminimalisir penyebaran wabah flu burung yaitu:
+      </p>
+        <li>Tracing masyarakat yang datang dari wilayah yang terinfeksi virus flu burung.</li>    
+        <li>Menahan pergerakan masyarakat di daerah terinfeksi.</li>
+        <li>Pemantauan peternakan unggas-unggas yang berpotensi terinfeksi.</li>
+    </div>
+
+<b><p>Prinsip dasar yang diterapkan dalam pencegahan, pengendalian, dan pemberantasan Avian influenza atau flu burung, adalah:</p> </b>
+<div class="w3-container w3-center">
+    <div class="w3-gray"> <p class="w3-text-white">Mencegah kontak antara hewan peka dengan virus AI (Avian influenza)</p> </div>
+  <p>Menghentikan produksi virus AI oleh unggas tertular (menghilangkan virus AI dengan dekontaminasi/ disinfeksi)</p>
+  <div class="w3-gray"> <p class="w3-text-white"> Meningkatkan resistensi (pengebalan) dengan vaksinasi</p> </div>
+  <p>Menghilangkan sumber penularan virus</p>
+  <div class="w3-gray"> <p class="w3-text-white"> Peningkatan kesadaran masyarakat (public awareness)</p> </div>
+</div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Created by Alvin Taniharja</p><br><p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

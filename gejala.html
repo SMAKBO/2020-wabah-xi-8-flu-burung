@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Penyebaran Flu Burung</title>
+<title>Gejala Flu Burung</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -24,8 +24,20 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url("Header ayam.jpg");
+  background-image: url("fluburung2.jpeg");
   min-height: 400px
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("ayam.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("petasebaran.jpg");
+  min-height: 400px;
 }
 
 .w3-wide {letter-spacing: 10px;}
@@ -33,13 +45,14 @@ body, html {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
     min-height: 400px;
   }
 }
 </style>
 <body>
+
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
@@ -51,11 +64,11 @@ body, html {
     <a href="tentang wabah.html" class="w3-bar-item w3-text-black w3-button w3-hover-text-white w3-hover-black w3-hide-small"> TENTANG WABAH</a>
     <a href="penyebaran.html" class="w3-bar-item w3-text-black w3-button w3-hover-text-white w3-hover-black w3-hide-small "> PENYEBARAN</a>
     <a href="penanggulangan.html" class="w3-bar-item w3-text-black w3-button w3-hover-text-white w3-hover-black w3-hide-small"> PENANGGULANGAN</a>
-    <a href="about us.html" class="w3-bar-item w3-button w3-text-light-gray w3-hide-small w3-right"> ABOUT US</a>
+    <a href="about us.html" class="w3-bar-item w3-button w3-text-black w3-hide-small w3-right"> ABOUT US</a>
     </a>
   </div>
 
-  <!-- Navbar on small screens -->
+<!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="tentang wabah.html" class="w3-bar-item w3-button" onclick="toggleFunction()">TENTANG WABAH</a>
     <a href="penyebaran.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PENYEBARAN</a>
@@ -65,28 +78,52 @@ body, html {
 </div>
 
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min w3-animate-top" id="home">
+<div class="bgimg-1 w3-display-container w3-animate-top" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Penyebaran <span class="w3-hide-small">Avian Influenza</span> 
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Tentang <span class="w3-hide-small"> Avian Influenza</span> </span>
   </div>
 </div>
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="flu burung">
-  <h3><b>Pelajari lebih lanjut Mengenai Penyebaran Avian Influenza</b></h3><br>
-  <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-button w3-hide-small w3-text-black w3-hover-text-white w3-w3-hover-black" title="select topic"><b> Silakan Pilih topik yang diinginkan </b><i class="fa fa-caret-down"></i></button>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-animate-zoom">
-        <a href="asal.html" class="w3-bar-item w3-button"> Asal Mula </a>
-        <a href="kawasan.html" class="w3-bar-item w3-button"> Kawasan Terinfeksi dan Peta Sebaran </a>
-      </div>
+  <h3 class="w3-center">FLU BURUNG</h3>
+  <p class="w3-center"><em>H5N1</em></p>
+<div class="w3-container w3-center">
+  <p>Flu burung adalah infeksi virus yang menyerang bukan hanya burung, tetapi juga manusia, dan hewan lain. Namun sebagian besar adalah unggas. H5N1 adalah bentuk paling umum dari flu burung.</p>
+</div>
+  <div class="w3-row">
+<h4 class="w3-center"><b>Gejala Flu Burung</b></h4><br>
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="sakit.jpg" class="w3-round w3-image w3-image" alt="flu burung" width="1000px" height="666px">
     </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-justify w3-padding-large">
+<p>Gejala flu burung umumnya baru muncul setelah 3–5 hari terpapar virus ini. Gejala yang timbul dapat berbeda-beda, mulai dari yang ringan hingga parah. Meskipun kadang orang yang terinfeksi virus flu burung bisa tidak merasakan gejala apa pun, tetapi secara umum, penderita flu burung akan mengalami gejala berupa:</p>
+
+      <ul>
+
+          <li>Demam</li>
+          <li>Batuk</li>
+          <li>Sakit tenggorokan</li>
+          <li>Nyeri otot</li>
+          <li>Sakit kepala</li>
+          <li>Kelelahan</li>
+          <li>Hidung berair atau tersumbat</li>
+          <li>Sesak napas</li>
+
+      </ul>
+
+<p> Pada beberapa penderita, gejala lain yang juga dapat timbul antara lain muntah, sakit perut, diare, gusi berdarah, mimisan, nyeri dada, dan mata merah (konjungtivitis). Pada infeksi yang berat, flu burung bahkan bisa menyebabkan pneumonia, Acute Respiratory Distress Syndrome (ARDS), gagal napas, kejang, dan gangguan sistem saraf.</p>
   </div>
+</div>
+</div>
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="penyebaran.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <p>Created by Hilmi Daffa Windardi & Sabina Cahya Rianti</p><br><p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</p>
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Created by Brigitta Natasha Widiaputri</p><br><p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</p>
+
 </footer>
  
 <script>
